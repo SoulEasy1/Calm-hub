@@ -1,50 +1,112 @@
 # Calm-hub
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>SoulEase Listener & Healer</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-body { font-family: Arial, sans-serif; padding: 40px; background: #f7f7f7; margin: 0; }
-.container { max-width: 800px; margin: auto; background: #fff; padding: 30px; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
-h1 { color: #333; margin-bottom: 10px; }
-p, li { font-size: 17px; line-height: 1.6; color: #444; }
-button { padding: 12px 20px; background: #000; color: #fff; border: none; border-radius: 6px; cursor: pointer; font-size: 16px; }
-button:hover { opacity: 0.8; }
-section { margin-bottom: 40px; }
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CalmHub — Emotional Listening & Healing</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Playfair+Display:wght@500;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
-<div class="container">
+<!-- NAVBAR -->
+<header>
+    <div class="logo">CalmHub</div>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Healing</a></li>
+            <li><a href="#breath">Breathing</a></li>
+            <li><a href="#testimonials">Stories</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
 
-<h1>SoulEase — Emotional Listener & Healer</h1>
-<p>I help people feel lighter, emotionally supported, and understood through compassionate listening.</p>
-
-<section>
-<h2>🌿 Services</h2>
-<ul>
-<li>1:1 Emotional Listening Session</li>
-<li>Non-judgmental Safe Space</li>
-<li>Anxiety & Overthinking Relief</li>
-<li>Healing Guidance & Support</li>
-</ul>
+<!-- HERO SECTION -->
+<section id="home" class="hero">
+    <div class="hero-text">
+        <h1>Welcome to <span>CalmHub</span></h1>
+        <p>Your safe, private space to talk, release, breathe, and heal with presence.</p>
+        <a href="https://wa.me/919598243010" class="btn">Talk to Me on WhatsApp</a>
+    </div>
 </section>
 
-<section>
-<h2>📞 Book a Session</h2>
-<p>Click below to book a session with me directly:</p>
-<a href="mailto:ritushasingh.5@gmail.com">
-<button>Book Now</button>
-</a>
+<!-- SERVICES -->
+<section id="services" class="services">
+    <h2>My Healing Support</h2>
+    <div class="service-grid">
+
+        <div class="service-box">
+            <h3>Emotional Listening</h3>
+            <p>Talk freely. Be fully heard without judgment or interruption.</p>
+        </div>
+
+        <div class="service-box">
+            <h3>Stress Relief Guidance</h3>
+            <p>Gentle practices to release tension and feel grounded.</p>
+        </div>
+
+        <div class="service-box">
+            <h3>Relationship Clarity</h3>
+            <p>Understand emotions, patterns, wounds & intuitive guidance.</p>
+        </div>
+
+        <div class="service-box">
+            <h3>Anxiety Calm-Down</h3>
+            <p>Real-time grounding, breathing, and emotional stabilization.</p>
+        </div>
+
+    </div>
 </section>
 
-<section>
-<h2>💛 About Me</h2>
-<p>I provide emotional support and listening services to help people reduce stress, feel heard, and heal from emotional weight.</p>
+<!-- BREATHING EXERCISE -->
+<section id="breath" class="breathing">
+    <h2>1-Minute Breathing Exercise</h2>
+    <p>Follow the circle. Inhale… Hold… Exhale… Feel your body soften.</p>
+    
+    <div id="breath-circle"></div>
+
+    <button class="btn" onclick="startBreathing()">Start Breathing</button>
 </section>
 
-</div>
+<!-- TESTIMONIALS -->
+<section id="testimonials" class="testimonials">
+    <h2>Healing Stories</h2>
+    
+    <div class="test-card">
+        <p>“I felt safe for the first time in months. Her listening healed me deeply.”</p>
+        <h4>— Anjali</h4>
+    </div>
 
+    <div class="test-card">
+        <p>“She helped me understand my emotions and breathe through panic.”</p>
+        <h4>— Rohan</h4>
+    </div>
+
+    <div class="test-card">
+        <p>“A warm presence. CalmHub is now my space when life feels heavy.”</p>
+        <h4>— Manya</h4>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="contact">
+    <h2>Contact & Sessions</h2>
+    
+    <p>Email: <strong>ritushasingh.5@gmail.com</strong></p>
+
+    <p>Payments UPI: <strong>ritushasingh.5@okicici</strong></p>
+    
+    <a href="https://wa.me/919598243010" class="btn">Book Session on WhatsApp</a>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <p>© 2025 CalmHub — Emotional Healing & Listening</p>
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>
