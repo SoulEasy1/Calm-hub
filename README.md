@@ -110,3 +110,146 @@
 <script src="script.js"></script>
 </body>
 </html>
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #f6f9f4;
+    color: #333;
+}
+
+/* NAVBAR */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 25px;
+    background: #0f3d2e;
+    color: white;
+    position: sticky;
+    top: 0;
+}
+
+header .logo {
+    font-family: 'Playfair Display', serif;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+/* HERO */
+.hero {
+    height: 80vh;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.6)),
+    url("https://images.unsplash.com/photo-1506126613408-eca07ce68773") center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+.hero h1 {
+    font-size: 38px;
+    font-family: 'Playfair Display', serif;
+}
+
+.hero span {
+    color: #9be7c4;
+}
+
+.hero p {
+    margin: 15px auto;
+    max-width: 500px;
+}
+
+.btn {
+    padding: 12px 22px;
+    background: #1b5f44;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+/* SERVICES */
+.services {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.service-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.service-box {
+    padding: 20px;
+    background: white;
+    border-radius: 12px;
+    border-left: 5px solid #1b5f44;
+}
+
+/* BREATHING */
+.breathing {
+    padding: 50px 20px;
+    text-align: center;
+    background: #e7f4ec;
+}
+
+#breath-circle {
+    width: 140px;
+    height: 140px;
+    margin: 25px auto;
+    border-radius: 50%;
+    background: #1b5f44;
+    animation: none;
+}
+
+@keyframes breathe {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.4); }
+    100% { transform: scale(1);}
+}
+
+/* TESTIMONIALS */
+.testimonials {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.test-card {
+    background: white;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 500px;
+    border-radius: 12px;
+    border-top: 5px solid #1b5f44;
+}
+
+/* CONTACT */
+.contact {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+footer {
+    background: #0f3d2e;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
