@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
-<title>CalmHub — Luxury Emotional Listening & Healing</title>
+<title>CalmHub — Emotional Listening & Healing</title>
 <meta name="description" content="CalmHub by Sakshi — premium emotional listening, healing sessions and breathing practices. Book via WhatsApp or pay with UPI. Safe, compassionate, confidential." />
 <meta name="keywords" content="listener, emotional support, healing, breathing exercises, online listener, spiritual healing, CalmHub, Sakshi" />
 <meta name="author" content="Sakshi — CalmHub" />
