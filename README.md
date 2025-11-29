@@ -1,43 +1,4 @@
 # Calm-hub
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<title>SoulEase Listener & Healer</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="styles.css">
-</head>
-<body>
-
-<div class="container">
-<h1>SoulEase — Emotional Listener & Healer</h1>
-<p>I help people feel lighter, emotionally supported, and understood through compassionate listening.</p>
-
-<section>
-<h2>Services</h2>
-<ul>
-<li>1:1 Emotional Listening</li>
-<li>Safe Space Venting</li>
-<li>Anxiety & Stress Support</li>
-<li>Healing Guidance</li>
-</ul>
-</section>
-
-<section>
-<h2>Book a Session</h2>
-<a href="mailto:ritushasingh.5@gmail.com"><button>Book Now</button></a>
-</section>
-
-<section>
-<h2>About Me</h2>
-<p>I offer compassionate listening and emotional support to help people heal and feel lighter.</p>
-</section>
-</div>
-
-<script src="script.js"></script>
-</body>
-</html>
-<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -87,43 +48,3 @@ section { margin-bottom: 40px; }
 
 </body>
 </html>
-body {
-    font-family: Arial, sans-serif;
-    padding: 40px;
-    background: #fafafa;
-    margin: 0;
-}
-
-.container {
-    max-width: 800px;
-    margin: auto;
-    background: white;
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-}
-
-h1 {
-    color: #333;
-    margin-bottom: 15px;
-}
-
-button {
-    padding: 12px 20px;
-    background: black;
-    color: white;
-    border: none;
-    border-radius: 6px;
-    cursor: pointer;
-    font-size: 16px;
-}
-
-button:hover {
-    opacity: 0.8;
-}
-
-ul li {
-    font-size: 17px;
-    margin-bottom: 8px;
-}
-console.log("SoulEase website loaded successfully.");
